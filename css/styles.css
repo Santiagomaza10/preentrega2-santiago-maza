@@ -46,6 +46,7 @@ p {
 .hero__textbutton:hover{
         background-color: white;
         color: black;
+        transition: 0.8s;
 }
 
 .hero {
@@ -123,6 +124,7 @@ i {
 .footer-button:hover {
     background-color: white;
     color: black;
+    transition: 0.8s;
 }
 
 .footer-title {
