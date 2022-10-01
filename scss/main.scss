@@ -1,0 +1,17 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./layout/_footer";
+@import "./layout/_header";
+@import "./layout/_nav";
+
+@import "./components/_button";
+@import "./components/_cards";
+
+@import "./pages/nosotros";
+@import "./pages/trabajos";
+@import "./pages/local";
+@import "./pages/turnos";
+@import "./pages/index";

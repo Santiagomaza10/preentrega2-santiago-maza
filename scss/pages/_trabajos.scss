@@ -1,0 +1,6 @@
+.section-trabajos{
+    background-color: black;
+    & article{
+        background: $section-gradient;
+    }
+}
