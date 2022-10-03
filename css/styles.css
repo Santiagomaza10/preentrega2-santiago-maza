@@ -1,5 +1,23 @@
 * p {
-  font-family: "Playfair Display", serif;
+  font-family: "Abyssinica SIL", serif;
+  color: papayawhip;
+  font-size: 1.1rem;
+}
+
+* h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.8rem;
+  color: rgb(196, 172, 41);
+}
+
+* h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+  color: rgb(196, 172, 41);
+}
+
+* label {
+  color: papayawhip;
 }
 
 footer {
@@ -8,12 +26,14 @@ footer {
 }
 footer p {
   color: white;
+  font-size: 1.1rem;
 }
 footer h3 {
   color: white;
 }
 footer i {
   color: white;
+  font-size: 1.8rem;
 }
 
 header {
@@ -55,11 +75,12 @@ header h1 {
   justify-content: center;
   align-items: center;
 }
-.card-nosotros h2 {
-  color: goldenrod;
-}
-.card-nosotros p {
-  color: goldenrod;
+
+.section-backimg {
+  background-image: url(../../assets/img/background/backsec.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-nosotros {
@@ -67,7 +88,10 @@ header h1 {
 }
 
 .section-trabajos {
-  background-color: black;
+  background-image: url(../../assets/img/background/backsec.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .section-trabajos article {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
@@ -78,6 +102,19 @@ header h1 {
 }
 .section-local article {
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(171, 32, 32) 50%, rgb(0, 0, 0) 100%);
+}
+.section-local article a {
+  text-decoration: none;
+  color: papayawhip;
+  text-decoration: underline;
+}
+.section-local article a:hover {
+  color: black;
+  transition: 0.3s;
+}
+.section-local article li {
+  list-style: none;
+  color: papayawhip;
 }
 
 .input-form {
@@ -93,7 +130,7 @@ header h1 {
 }
 
 .hero {
-  background-image: url(../../assets/img/index/herofotoindex.jpg);
+  background-image: url(../../assets/img/index/heroimg.jpg);
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -104,18 +141,9 @@ header h1 {
   background: rgba(37, 30, 30, 0.685);
   width: 50%;
 }
-.hero .herobox h2 {
-  font-size: 2.5rem;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-.hero .herobox__subtitle {
-  font-size: 1.5rem;
-  font-style: italic;
-}
-.hero .herobox__button {
-  text-decoration: none;
+
+.section-back {
+  background-color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
